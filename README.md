@@ -3,6 +3,15 @@
 Готовые сборки и исходники прошивки HF-синтезатора на двух Si5351
 (VFO + BFO), 9 КВ-диапазонов, ATmega168.
 
+<p align="center">
+  <img src="pics/step-ii.png" alt="Трансивер STEP-II SMD R9OFG с синтезатором на двух Si5351" width="72%">
+</p>
+
+<p align="center">
+  <img src="pics/Pcb-1.png" alt="Плата синтезатора с установленным LCD1602" width="48%">
+  <img src="pics/Pcb-2.png" alt="Плата синтезатора Rev.-2.1, вид сверху" width="48%">
+</p>
+
 Полное описание, приложение и история разработки —
 в основном репозитории: [R9OFG/Synt_Si5351x2_R9OFG](https://github.com/R9OFG/Synt_Si5351x2_R9OFG).
 
