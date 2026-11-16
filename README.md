@@ -72,15 +72,6 @@
   <img src="pics/App-4.png" alt="Менеджер частот: расписания EiBi" width="48%">
 </p>
 
-### Документация
-
-| Файл | Что это | Размер |
-|---|---|---|
-| [Synt_si5351_avr_5v_2.1.pdf](docs/Synt_si5351_avr_5v_2.1.pdf) | принципиальная схема | 202 КБ |
-| [CAT_R9OFG.ini](docs/CAT_R9OFG.ini) | описание Rig для OmniRig | 2 КБ |
-
-## Приложение
-
 `CAT-R9OFG-OmniRig-Client` — окно управления синтезатором по CAT из OmniRig:
 частота, режимы, ATT/PRE, тональник, менеджер частот, настройки синтезатора.
 
@@ -88,6 +79,13 @@
 `CAT_R9OFG.ini` копируется в `Rigs` OmniRig
 (`C:\Program Files (x86)\Afreet\OmniRig\Rigs`), после чего OmniRig нужно
 перезапустить — иначе `CAT-R9OFG` не появится в списке Rig 1/2.
+
+### Документация
+
+| Файл | Что это | Размер |
+|---|---|---|
+| [Synt_si5351_avr_5v_2.1.pdf](docs/Synt_si5351_avr_5v_2.1.pdf) | принципиальная схема | 202 КБ |
+| [CAT_R9OFG.ini](docs/CAT_R9OFG.ini) | описание Rig для OmniRig | 2 КБ |
 
 ## Состав репозитория
 
