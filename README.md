@@ -109,7 +109,7 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 * `MODE` — LSB → USB → CWL → CWU.
 * `PTT on/off` (или `Esc`) — передача / приём.
 * `One tone` / `Tow tone` — тональник: один тон или два (второй выше первого
-  на заданную разницу).
+  по частоте на заданную разницу).
 * `Advanced options >>` / `<<` — панель: `Output audio device` (устройство
   вывода звука), ползунок уровня 0…100 %, `Freg first tone` и `Freg differ
   tone` (частоты тонов, Гц), `Enable limit tuning to tone` (предел настройки
