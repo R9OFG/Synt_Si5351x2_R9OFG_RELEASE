@@ -40,6 +40,11 @@
 | [efuse.hex](firmware/efuse.hex) | EFUSE (0x01) | 1 Б |
 | [lock.hex](firmware/lock.hex) | LOCK (0x3F) | 1 Б |
 
+<p align="center">
+  <img src="pics/fuses-avrisp-mkii.png" alt="Фьюзы ATmega168 в Atmel Studio 7 для AVRISP mkII" width="48%">
+  <img src="pics/fuses-usbasp.png" alt="Фьюзы ATmega168 для USBasp (AVRDUDEPROG)" width="48%">
+</p>
+
 ### Исходники прошивки
 
 | Файл | Что это | Размер |
