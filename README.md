@@ -64,7 +64,6 @@
 |---|---|---|
 | [Synt_si5351_avr_5v_2.1.pdf](docs/Synt_si5351_avr_5v_2.1.pdf) | принципиальная схема | 202 КБ |
 | [CAT_R9OFG.ini](docs/CAT_R9OFG.ini) | описание Rig для OmniRig | 2 КБ |
-| [CHANGELOG_3.0.txt](docs/CHANGELOG_3.0.txt) | список изменений 3.0 | 39 КБ |
 
 ## Прошивка
 
@@ -81,8 +80,7 @@ avrdude -c usbasp -p m168 -B 4 -U lfuse:w:0xCF:m -U hfuse:w:0xD4:m ^
 
 **Первое включение после 3.0.** Формат настроек в EEPROM изменился, поэтому
 при первом запуске они один раз сбрасываются на заводские. Далее нужно
-выставить BFO и откалибровать XTALL-1/XTALL-2 в меню FUNC — подробности в
-[CHANGELOG_3.0.txt](docs/CHANGELOG_3.0.txt).
+выставить BFO и откалибровать XTALL-1/XTALL-2 в меню FUNC.
 
 Сборка из исходников: открыть `Synt_si5351.atsln` в Atmel Studio 7,
 конфигурация **Release**, Build. После сборки `Tools/MakeRelease.ps1` кладёт
@@ -104,7 +102,7 @@ hex в `Release/`.
 firmware/   прошивка (hex) и файлы фьюзов
 sources/    архив исходников прошивки
 app/        приложение: один exe и установщик MSI
-docs/       схема, CAT_R9OFG.ini, changelog
+docs/       схема, CAT_R9OFG.ini
 ```
 
 ## Обновление релиза
