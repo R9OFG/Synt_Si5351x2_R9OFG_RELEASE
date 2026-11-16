@@ -30,7 +30,7 @@
 
 | Компонент | Версия |
 |---|---|
-| Прошивка | **3.0.0** |
+| Прошивка | **3.0.1** |
 | Приложение | **3.1.0** |
 
 ## Скачать
@@ -39,7 +39,7 @@
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [Synt_Si5351x2_R9OFG_3.0.0.hex](firmware/Synt_Si5351x2_R9OFG_3.0.0.hex) | прошивка 3.0.0 для ATmega168 | 40 КБ |
+| [Synt_Si5351x2_R9OFG_3.0.1.hex](firmware/Synt_Si5351x2_R9OFG_3.0.1.hex) | прошивка 3.0.1 для ATmega168 | 40 КБ |
 | [lfuse.hex](firmware/lfuse.hex) | LFUSE (0xCF) | 1 Б |
 | [hfuse.hex](firmware/hfuse.hex) | HFUSE (0xD4) | 1 Б |
 | [efuse.hex](firmware/efuse.hex) | EFUSE (0x01) | 1 Б |
@@ -58,7 +58,7 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [Synt_Si5351x2_R9OFG_3.0.0_src.zip](sources/Synt_Si5351x2_R9OFG_3.0.0_src.zip) | исходники прошивки и проект Atmel Studio 7 (без приложения) | 32 КБ |
+| [Synt_Si5351x2_R9OFG_3.0.1_src.zip](sources/Synt_Si5351x2_R9OFG_3.0.1_src.zip) | исходники прошивки и проект Atmel Studio 7 (без приложения) | 32 КБ |
 
 ### Приложение
 
