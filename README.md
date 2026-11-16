@@ -83,10 +83,6 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 </p>
 
 <p align="center">
-  <img src="pics/Rig.png" alt="OmniRig Settings: выбор CAT_R9OFG в закладке Rig 1/2" width="30%">
-</p>
-
-<p align="center">
   <img src="pics/App-3.png" alt="Менеджер частот: My freq" width="48%">
   <img src="pics/App-4.png" alt="Менеджер частот: расписания EiBi" width="48%">
 </p>
@@ -102,6 +98,11 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 (`C:\Program Files (x86)\Afreet\OmniRig\Rigs`); если файла там нет, программа
 сама предложит его скопировать при первом запуске. После копирования OmniRig
 нужно перезапустить — иначе `CAT-R9OFG` не появится в списке Rig 1/2.
+
+<p align="center">
+  <img src="pics/Rig.png" alt="OmniRig Settings: выбор CAT_R9OFG в закладке Rig 1/2" width="28%">
+</p>
+
 Загрузка актуального расписания вещания на КВ — из контекстного меню правой
 кнопкой мышки по области таблицы КВ вещания, расписание загружается с сайта
 [eibispace.de](https://www.eibispace.de/).
