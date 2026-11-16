@@ -74,8 +74,10 @@
 
 `CAT-R9OFG-OmniRig-Client` — окно управления синтезатором по CAT из OmniRig:
 частота, режимы, ATT/PRE, тональник, менеджер частот, настройки синтезатора.
+Для работы требуется установленный OmniRig версии 1.1 или новее
+(актуальная — 1.2).
 
-Требуется только .NET Framework 4.8 (входит в Windows 10/11) и OmniRig 1.1+.
+Требуется только .NET Framework 4.8 (входит в Windows 10/11).
 `CAT_R9OFG.ini` копируется в `Rigs` OmniRig
 (`C:\Program Files (x86)\Afreet\OmniRig\Rigs`), после чего OmniRig нужно
 перезапустить — иначе `CAT-R9OFG` не появится в списке Rig 1/2. Смена цвета
