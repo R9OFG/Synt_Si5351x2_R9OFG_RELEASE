@@ -39,7 +39,7 @@
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [Synt_Si5351x2_R9OFG_3.0.0.hex](firmware/Synt_Si5351x2_R9OFG_3.0.0.hex) | прошивка 3.0.0 для ATmega168 | 40 КБ |
+| [Synt_Si5351x2_R9OFG_3.0.0.hex](firmware/Synt_Si5351x2_R9OFG_3.0.0.hex) | прошивка 3.0.0 для ATmega168/328 | 40 КБ |
 | [lfuse.hex](firmware/lfuse.hex) | LFUSE (0xCF) | 1 Б |
 | [hfuse.hex](firmware/hfuse.hex) | HFUSE (0xD4) | 1 Б |
 | [efuse.hex](firmware/efuse.hex) | EFUSE (0x01) | 1 Б |
