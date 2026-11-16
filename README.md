@@ -44,7 +44,7 @@
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [Synt_Si5351x2_R9OFG_3.0.0_src.zip](sources/Synt_Si5351x2_R9OFG_3.0.0_src.zip) | исходники прошивки и проект Atmel Studio 7 (без приложения) | 53 КБ |
+| [Synt_Si5351x2_R9OFG_3.0.0_src.zip](sources/Synt_Si5351x2_R9OFG_3.0.0_src.zip) | исходники прошивки и проект Atmel Studio 7 (без приложения) | 39 КБ |
 
 ### Приложение
 
@@ -107,5 +107,5 @@ docs/       схема, CAT_R9OFG.ini, changelog
 1. Собрать прошивку (Release) и приложение.
 2. Заменить hex в `firmware/` (имя — `Synt_Si5351x2_R9OFG_<версия>.hex`).
 3. Пересобрать `sources/Synt_Si5351x2_R9OFG_<версия>_src.zip` — только
-   файлы прошивки, без `APP/`.
+   исходники и проект, без `APP/`, hex и txt.
 4. Положить новый exe/MSI в `app/`, обновить версии и таблицы в этом README.
