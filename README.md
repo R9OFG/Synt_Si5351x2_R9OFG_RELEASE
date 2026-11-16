@@ -83,6 +83,10 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 </p>
 
 <p align="center">
+  <img src="pics/Rig.png" alt="OmniRig Settings: выбор CAT_R9OFG в закладке Rig 1/2" width="30%">
+</p>
+
+<p align="center">
   <img src="pics/App-3.png" alt="Менеджер частот: My freq" width="48%">
   <img src="pics/App-4.png" alt="Менеджер частот: расписания EiBi" width="48%">
 </p>
