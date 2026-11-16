@@ -141,7 +141,8 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 
 * `BFO LSB/USB/CWL/CWU`, `XTALL-1`, `XTALL-2` — частоты в Гц.
 * `Step` — шаг перестройки, `CLK0 Si-1` / `CLK0 Si-2` — ток драйвера,
-  `Conversion` — классика / всегда вверх, `Swap freq on TX`.
+  `Conversion` — классика / всегда вверх, `Swap freq on TX` — смена частот
+  VFO/BFO при передаче.
 * `Bands` — галочки включения 9 диапазонов; `ATT/PRE by band` — списки
   off/ATT/PRE для каждого диапазона.
 * `S-meter calibration (ADC 0..255)` — 7 порогов S1…S9+20 с подписями в dBm
