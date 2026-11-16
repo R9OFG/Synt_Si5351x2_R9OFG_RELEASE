@@ -55,7 +55,6 @@
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [CAT-R9OFG-OmniRig-Client.exe](app/CAT-R9OFG-OmniRig-Client.exe) | один exe, все библиотеки и шрифт внутри | 1,1 МБ |
 | [CAT-R9OFG-OmniRig-Client_3.1.0.msi](app/CAT-R9OFG-OmniRig-Client_3.1.0.msi) | установщик MSI | 656 КБ |
 
 <p align="center">
