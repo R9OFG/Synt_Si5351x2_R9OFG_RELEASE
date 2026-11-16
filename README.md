@@ -79,27 +79,6 @@
 | [Synt_si5351_avr_5v_2.1.pdf](docs/Synt_si5351_avr_5v_2.1.pdf) | принципиальная схема | 202 КБ |
 | [CAT_R9OFG.ini](docs/CAT_R9OFG.ini) | описание Rig для OmniRig | 2 КБ |
 
-## Прошивка
-
-ATmega168, кварц 25 МГц. Фьюзы: **LFUSE 0xCF, HFUSE 0xD4, EFUSE 0x01,
-LOCK 0x3F** (файлы `*.hex` лежат рядом с прошивкой).
-
-```
-avrdude -c usbasp -p m168 -B 4 -U lfuse:w:0xCF:m -U hfuse:w:0xD4:m ^
-  -U efuse:w:0x01:m -U lock:w:0x3F:m ^
-  -U flash:w:Synt_Si5351x2_R9OFG_3.0.0.hex:i
-```
-
-Скриншоты настроек для AVRISP mkII и USBasp — в основном репозитории (`Prog/`).
-
-**Первое включение после 3.0.** Формат настроек в EEPROM изменился, поэтому
-при первом запуске они один раз сбрасываются на заводские. Далее нужно
-выставить BFO и откалибровать XTALL-1/XTALL-2 в меню FUNC.
-
-Сборка из исходников: открыть `Synt_si5351.atsln` в Atmel Studio 7,
-конфигурация **Release**, Build. После сборки `Tools/MakeRelease.ps1` кладёт
-hex в `Release/`.
-
 ## Приложение
 
 `CAT-R9OFG-OmniRig-Client` — окно управления синтезатором по CAT из OmniRig:
