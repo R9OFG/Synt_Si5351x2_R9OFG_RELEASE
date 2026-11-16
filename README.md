@@ -30,7 +30,7 @@
 
 | Компонент | Версия |
 |---|---|
-| Прошивка | **3.0.1** |
+| Прошивка | **3.0.0** |
 | Приложение | **3.1.0** |
 
 ## Скачать
@@ -39,7 +39,7 @@
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [Synt_Si5351x2_R9OFG_3.0.1.hex](firmware/Synt_Si5351x2_R9OFG_3.0.1.hex) | прошивка 3.0.1 для ATmega168 | 40 КБ |
+| [Synt_Si5351x2_R9OFG_3.0.0.hex](firmware/Synt_Si5351x2_R9OFG_3.0.0.hex) | прошивка 3.0.0 для ATmega168 | 40 КБ |
 | [lfuse.hex](firmware/lfuse.hex) | LFUSE (0xCF) | 1 Б |
 | [hfuse.hex](firmware/hfuse.hex) | HFUSE (0xD4) | 1 Б |
 | [efuse.hex](firmware/efuse.hex) | EFUSE (0x01) | 1 Б |
@@ -58,13 +58,14 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [Synt_Si5351x2_R9OFG_3.0.1_src.zip](sources/Synt_Si5351x2_R9OFG_3.0.1_src.zip) | исходники прошивки и проект Atmel Studio 7 (без приложения) | 32 КБ |
+| [Synt_Si5351x2_R9OFG_3.0.0_src.zip](sources/Synt_Si5351x2_R9OFG_3.0.0_src.zip) | исходники прошивки и проект Atmel Studio 7 (без приложения) | 32 КБ |
 
 ### Приложение
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [CAT-R9OFG-OmniRig-Client_3.1.0.msi](app/CAT-R9OFG-OmniRig-Client_3.1.0.msi) | установщик MSI | 656 КБ |
+| [CAT-R9OFG-OmniRig-Client_3.1.0.msi](app/CAT-R9OFG-OmniRig-Client_3.1.0.msi) | установщик MSI (ярлыки, проверка .NET 4.8 и OmniRig) | 656 КБ |
+| [CAT-R9OFG-OmniRig-Client_3.1.0.exe](app/CAT-R9OFG-OmniRig-Client_3.1.0.exe) | портативная версия: один файл (NAudio и шрифт внутри) | 1,1 МБ |
 
 <p align="center">
   <img src="pics/App-1.png" alt="Главное окно: частота, режим, S-метр" width="48%">
@@ -85,11 +86,13 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 Для работы требуется установленный OmniRig версии 1.1 или 1.2
 (рекомендуется 1.2).
 
-Требуется только .NET Framework 4.8 (входит в Windows 10/11).
-`CAT_R9OFG.ini` копируется в `Rigs` OmniRig
-(`C:\Program Files (x86)\Afreet\OmniRig\Rigs`), после чего OmniRig нужно
-перезапустить — иначе `CAT-R9OFG` не появится в списке Rig 1/2. Смена цвета
-символов дисплея приложения — двойной клик мышкой по области дисплея.
+Требуется только .NET Framework 4.8 (входит в Windows 10/11). Приложение
+собрано одним файлом: NAudio и шрифт дисплея Terminus внутри exe, рядом ничего
+не нужно. `CAT_R9OFG.ini` копируется в `Rigs` OmniRig
+(`C:\Program Files (x86)\Afreet\OmniRig\Rigs`); если файла там нет, программа
+сама предложит его скопировать при первом запуске. После копирования OmniRig
+нужно перезапустить — иначе `CAT-R9OFG` не появится в списке Rig 1/2. Смена
+цвета символов дисплея приложения — двойной клик мышкой по области дисплея.
 Загрузка актуального расписания вещания на КВ — из контекстного меню правой
 кнопкой мышки по области таблицы КВ вещания; расписание берётся с сайта
 [eibispace.de](https://www.eibispace.de/).
