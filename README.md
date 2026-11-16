@@ -111,7 +111,7 @@ HEX-значения фьюзов (0xCF / 0xD4 / 0x01 / 0x3F), а не на га
 * `One tone` / `Tow tone` — тональник: один тон или два (второй выше первого
   по частоте на заданную разницу).
 * `Advanced options >>` / `<<` — панель: `Output audio device` (устройство
-  вывода звука), ползунок уровня 0…100 %, `Freg first tone` и `Freg differ
+  вывода звука с ПК на трансивер), ползунок уровня 0…100 %, `Freg first tone` и `Freg differ
   tone` (частоты тонов, Гц), `Enable limit tuning to tone` (предел настройки
   тоном, с), `Disable sound output on PC when PTT`, `Always on top`.
 * `Frequency manager show` — менеджер частот; `Synthesizer settings` —
