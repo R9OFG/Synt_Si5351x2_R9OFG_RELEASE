@@ -270,6 +270,7 @@ last peak). Если сигнала не было — покажет `LP: S0`. �
 | Файл | Что это | Размер |
 |---|---|---|
 | [Synt_si5351_avr_5v_2.1.pdf](docs/Synt_si5351_avr_5v_2.1.pdf) | принципиальная схема | 202 КБ |
+| [Gerber_Synt_9b_rev-2.1.zip](docs/Gerber_Synt_9b_rev-2.1.zip) | печатные платы (Gerber) | 61 КБ |
 | [CAT_R9OFG.ini](docs/CAT_R9OFG.ini) | описание Rig для OmniRig | 2 КБ |
 
 ## Состав репозитория
@@ -278,7 +279,7 @@ last peak). Если сигнала не было — покажет `LP: S0`. �
 firmware/   прошивка (hex) и файлы фьюзов
 sources/    архив исходников прошивки
 app/        приложение: портативный EXE и установщик MSI
-docs/       схема, CAT_R9OFG.ini
+docs/       схема, Gerber, CAT_R9OFG.ini
 ```
 
 ## Лицензия
