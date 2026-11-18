@@ -1,4 +1,4 @@
-# Синтезатор на двух Si5351 для КВ трансивера с CAT
+﻿# Синтезатор на двух Si5351 для КВ трансивера с CAT
 
 Готовые сборки и исходники прошивки HF-синтезатора на двух Si5351
 (VFO + BFO), 9 КВ-диапазонов, ATmega168/328
@@ -40,7 +40,7 @@
 | Компонент | Версия |
 |---|---|
 | Прошивка | **3.0.0** |
-| Приложение | **3.1.0** |
+| Приложение | **3.1.1** |
 
 ## Скачать
 
@@ -104,8 +104,8 @@
 
 | Файл | Что это | Размер |
 |---|---|---|
-| [CAT-R9OFG-OmniRig-Client_3.1.0.msi](app/CAT-R9OFG-OmniRig-Client_3.1.0.msi) | установщик MSI (ярлыки, проверка .NET 4.8 и OmniRig) | 656 КБ |
-| [CAT-R9OFG-OmniRig-Client_3.1.0.exe](app/CAT-R9OFG-OmniRig-Client_3.1.0.exe) | портативная версия: один файл (NAudio и шрифт внутри) | 1,1 МБ |
+| [CAT-R9OFG-OmniRig-Client_3.1.1.msi](app/CAT-R9OFG-OmniRig-Client_3.1.1.msi) | установщик MSI (ярлыки, проверка .NET 4.8 и OmniRig) | 656 КБ |
+| [CAT-R9OFG-OmniRig-Client_3.1.1.exe](app/CAT-R9OFG-OmniRig-Client_3.1.1.exe) | портативная версия: один файл (NAudio и шрифт внутри) | 1,1 МБ |
 
 <p align="center">
   <img src="pics/App-1.png" alt="Главное окно: частота, режим, S-метр" width="48%">
